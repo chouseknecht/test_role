@@ -21,7 +21,7 @@ galaxy_info:
   - web
   - database
 dependencies:
-  - { role: wheel, n: 1, testing: 'IN_DEP' }
-  - { role: wheel, n: 2 }
-  - { role: wheel, n: 3 }
-  - { role: wheel, n: 4, foo: boo }
+  - { role: test.wheel, n: 1, testing: 'IN_DEP' }
+  - { role: test.wheel, n: 2 }
+  - { role: test.wheel, n: 3 }
+  - { role: test.wheel, n: 4, foo: boo }
