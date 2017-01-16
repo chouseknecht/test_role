@@ -21,5 +21,7 @@ galaxy_info:
   - web
   - database
 dependencies:
-  - { role: chouseknecht.test-role-1 }
-  - { role: chouseknecht.test-role-2, version: v1.0 }
+  - src: https://github.com/chouseknecht/test-role-1.git
+    scm: git
+    version: 'master'
+    name: role-1
